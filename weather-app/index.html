@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Weather App</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="header">
+            <h1 class="app-title">WeatherGuard</h1>
+            <button class="theme-toggle" id="themeToggle">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI0Ij48L2NpcmNsZT48cGF0aCBkPSJNMTIgMnYyTTEyIDIwdjJNNi4zNCA2LjM0bC0uNzEuNzFNNy44NCAxNi4xNmwtLjcxLjcxTTIgMTJoMk0yMCAxMmgzTTYuMzQgMTcuNjZsLS43MS0uNzFNMTYuMTYgNy44NGwtLjcxLS43MSI+PC9wYXRoPjwvc3ZnPg=="
+                    alt="Light mode">
+            </button>
+        </div>
+
+        <div class="card">
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Enter city name" spellcheck="false">
+                <button id="searchBtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="error">
+                <p>Invalid city name. Please try again.</p>
+            </div>
+
+            <div class="weather">
+                <img src="./image/snow.png" class="weather-icon" id="weatherIcon">
+                <h1 class="temp" id="temperature">22°C</h1>
+                <h2 class="city" id="cityName">Sahiwal</h2>
+
+                <div class="details">
+                    <div class="col">
+                        <img src="./image/humidity.png" alt="">
+                        <div>
+                            <p class="humidity" id="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <img src="./image/wind.png" alt="">
+                        <div>
+                            <p class="wind" id="windSpeed">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="health-alert" id="healthAlert">
+                    <div class="alert-header">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCI+PC9jaXJjbGU+PGxpbmUgeDE9IjEyIiB5MT0iOCIgeDI9IjEyIiB5Mj0iMTIiPjwvbGluZT48bGluZSB4MT0iMTIiIHkxPSIxNiIgeDI9IjEyLjAxIiB5Mj0iMTYiPjwvbGluZT48L3N2Zz4="
+                            class="alert-icon">
+                        <div class="alert-title">Health Advisory</div>
+                    </div>
+                    <div class="alert-content" id="alertContent"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Smart Weather App with Health Alerts</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
