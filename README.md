@@ -38,6 +38,4 @@ The primary goal of building these projects was to strengthen my fundamentals, u
 
 ---
 
-## Author
 
-Muhammad Sheraz | Software Engineer
