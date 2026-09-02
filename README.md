@@ -34,8 +34,10 @@ The primary goal of building these projects was to strengthen my fundamentals, u
 
 * Stronger Core Logic: Moving away from frameworks helped me understand how the browser engine works under the hood.
 * API Handling: Learned how to deal with asynchronous requests, HTTP methods, and JSON parsing using native fetch.
-
+* State Management in Vanilla JS: Learned to manage state using JavaScript variables and browser localStorage
 
 ---
 
+## Author
 
+Muhammad Sheraz | Software Engineer
