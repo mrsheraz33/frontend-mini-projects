@@ -44,6 +44,3 @@ The primary goal of building these projects was to strengthen my fundamentals, u
 * Software Engineer & Frontend Developer  
 * **GitHub:** [@mrsheraz33](https://github.com/mrsheraz33)  
 
----
-
-*Co-authored & Maintained in collaboration with [@mohsin935](https://github.com/mohsin935)*
