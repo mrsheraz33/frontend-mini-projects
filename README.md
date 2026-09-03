@@ -8,9 +8,9 @@ The primary goal of building these projects was to strengthen my fundamentals, u
 
 ## Tech Stack & Skills Learned
 
-* HTML5: Semantic markup, accessibility, audio/media handling.
-* CSS3: Flexbox, Grid, custom animations, media queries, and responsive design.
-* JavaScript (ES6+): Async/Await, Fetch API, LocalStorage, DOM manipulation, event listeners, and algorithmic logic.
+* **HTML5:** Semantic markup, accessibility, audio/media handling.
+* **CSS3:** Flexbox, Grid, custom animations, media queries, and responsive design.
+* **JavaScript (ES6+):** Async/Await, Fetch API, LocalStorage, DOM manipulation, event listeners, and algorithmic logic.
 
 ---
 
@@ -32,12 +32,18 @@ The primary goal of building these projects was to strengthen my fundamentals, u
 
 ## Key Takeaways
 
-* Stronger Core Logic: Moving away from frameworks helped me understand how the browser engine works under the hood.
-* API Handling: Learned how to deal with asynchronous requests, HTTP methods, and JSON parsing using native fetch.
-* State Management in Vanilla JS: Learned to manage state using JavaScript variables and browser localStorage
+* **Stronger Core Logic:** Moving away from frameworks helped me understand how the browser engine works under the hood.
+* **API Handling:** Learned how to deal with asynchronous requests, HTTP methods, and JSON parsing using native fetch.
+* **State Management in Vanilla JS:** Learned to manage state using JavaScript variables and browser localStorage.
 
 ---
 
 ## Author
 
-Muhammad Sheraz | Software Engineer
+**Muhammad Sheraz**  
+* Software Engineer & Frontend Developer  
+* **GitHub:** [@mrsheraz33](https://github.com/mrsheraz33)  
+
+---
+
+*Co-authored & Maintained in collaboration with [@mohsin935](https://github.com/mohsin935)*
